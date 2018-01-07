@@ -1,1 +1,4 @@
 # learnUbuntu
+___
++ Ubuntu
++ Python
