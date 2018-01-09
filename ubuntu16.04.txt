@@ -1,18 +1,18 @@
 
-ÏµÍ³Æô¶¯Ê±Ä¬ÈÏ½øÈëÃüÁîĞĞ
-systemctl set-default multi-user.target
+ç³»ç»Ÿå¯åŠ¨æ—¶é»˜è®¤è¿›å…¥å‘½ä»¤è¡Œ
+'systemctl set-default multi-user.target'
 
-ÏµÍ³Æô¶¯Ê±Ä¬ÈÏ½øÈëÍ¼ĞÎ½çÃæ
-systemctl set-default graphical.target
+ç³»ç»Ÿå¯åŠ¨æ—¶é»˜è®¤è¿›å…¥å›¾å½¢ç•Œé¢
+'systemctl set-default graphical.target'
 
-ÃüÁîĞĞÖĞÆô¶¯Í¼ĞÎ½çÃæ
-sudo systemctl start lightdm.service
+å‘½ä»¤è¡Œä¸­å¯åŠ¨å›¾å½¢ç•Œé¢
+'sudo systemctl start lightdm.service'
 
-ÁÙÊ±¸ü¸ÄAPT´úÀíÉèÖÃ
-sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:8000/" update
+ä¸´æ—¶æ›´æ”¹APTä»£ç†è®¾ç½®
+'sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:8000/" update'
 
-ÓÀ¾Ã¸ü¸ÄAPT´úÀíÉèÖÃ
-sudo nano /etc/apt/apt.conf Ã»ÓĞapt.confÎÄ¼ş¾Í´´½¨Ò»¸ö
-Acquire::http::Proxy ¡°http://proxyusr:password@yourproxyaddress:proxyport¡±;  
-Acquire::https::Proxy ¡°https://proxyusr:password@yourproxyaddress:proxyport¡±;
+æ°¸ä¹…æ›´æ”¹APTä»£ç†è®¾ç½®
+'sudo nano /etc/apt/apt.conf' æ²¡æœ‰apt.confæ–‡ä»¶å°±åˆ›å»ºä¸€ä¸ª
+'Acquire::http::Proxy â€œhttp://proxyusr:password@yourproxyaddress:proxyportâ€';  
+'Acquire::https::Proxy â€œhttps://proxyusr:password@yourproxyaddress:proxyportâ€';
 
