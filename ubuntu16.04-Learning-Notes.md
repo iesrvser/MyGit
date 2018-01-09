@@ -1,3 +1,4 @@
+# Ubuntu16.04 学习笔记
 
 系统启动时默认进入命令行
 `systemctl set-default multi-user.target`
