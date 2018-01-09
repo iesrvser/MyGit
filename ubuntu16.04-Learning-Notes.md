@@ -17,6 +17,8 @@
 
 永久更改APT代理设置
 `sudo nano /etc/apt/apt.conf`  没有apt.conf文件就创建一个
+
 `Acquire::http::Proxy “http://proxyusr:password@yourproxyaddress:proxyport”`
+
 `Acquire::https::Proxy “https://proxyusr:password@yourproxyaddress:proxyport”`
 
