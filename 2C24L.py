@@ -30,7 +30,7 @@ def get_code_list(file):
             code_list.append(item[1::])
     return code_list
 
-file = "~/MyGit/WW1801.EBK"
+file = "/home/kmann/MyGit/WW1801.EBK"
 code_list = get_code_list(file)
 for code in code_list:
     dic = get_price(code)
