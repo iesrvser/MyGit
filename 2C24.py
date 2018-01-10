@@ -30,13 +30,14 @@ def get_code_list(file):
             code_list.append(item[1::])
     return code_list
 
-file = "c:\\workbook\\aly\WW1801.EBK"
+file = "c:\\workspace\\mygit\WW1801.EBK"
 code_list = get_code_list(file)
 for code in code_list:
-    print(code)
     dic = get_price(code)
-    print("MA20: " + str(dic["MA20"]))
-    print("Close: " + str(dic["close"]))
-    print("Low: " + str(dic["low"]))
-    print("---------------------------")
+    if dic["low"] <= dic["MA20"] and dic["close"] >= dic["MA20"]:
+        print(code)
+        print("MA20: " + str(dic["MA20"]))
+        print("Close: " + str(dic["close"]))
+        print("Low: " + str(dic["low"]))
+        print("---------------------------")
     
