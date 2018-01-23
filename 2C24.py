@@ -30,7 +30,7 @@ def get_code_list(file):
             code_list.append(item[1::])
     return code_list
 
-file = "c:\\workspace\\mygit\WW1801.EBK"
+file = "c:\\workspace\\mygit\\test.EBK"
 code_list = get_code_list(file)
 for code in code_list:
     dic = get_price(code)
