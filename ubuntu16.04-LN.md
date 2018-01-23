@@ -22,3 +22,6 @@
 
 `Acquire::https::Proxy “https://proxyusr:password@yourproxyaddress:proxyport”`
 
+设置root账户密码
+`sudo passwd root`
+
